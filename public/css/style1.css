@@ -1,0 +1,48 @@
+*{
+                        margin:0;
+                        padding:0; 
+                        box-sizing: border-box;          
+           }
+           
+           html,
+           #map{
+                                   width:100%;
+                                   height:100%;
+                                   border: 2px solid #ddd;
+           }
+           body {
+             margin: 0;
+             padding: 0;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             background-color: #f0f2f5;
+             width:100%;
+             height:100%;
+           }
+           
+           /* Style popups (Leaflet popup overrides) */
+           .leaflet-popup-content-wrapper {
+             background: #fff;
+             color: #333;
+             font-size: 14px;
+             border-radius: 8px;
+             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+           }
+           
+           .leaflet-popup-tip {
+             background: #fff;
+           }
+           
+           
+           .custom-circle-marker {
+             background-color: #3388ff;
+             border: 2px solid #fff;
+             border-radius: 50%;
+             width: 20px;
+             height: 20px;
+           }
+           
+           
+           
+           
+           
+           
